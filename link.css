@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+button{
+    text-decoration: none;
+}
+.topbar
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    display: table;
+    position: fixed;
+}
+.navbar
+{
+    width: 70%;
+    float: left;
+}
+.btn
+{
+    padding: 20px 30px;
+    float: left;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+.btn:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;   
+}
+.searchicon
+{
+    float: right;
+    padding: 20px 30px;
+}
+.searchicon:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;   
+}
+.banner
+{
+    width: 100%;
+    float: left;
+    height: 700px;
+    background: url(images/image.jpg);
+    background-size: contain;
+}
+.bannercontent
+{
+    text-align: center;
+    align-items: center;
+    margin-top: 600px;
+    color: white;
+}
+.about
+{
+    width: 100%;
+    align-items: center;
+    height: 900px;
+    float: left;
+    margin-top: 50px;
+}
+.about h1
+{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+.about p
+{
+    text-align: left;
+    line-height: 20px;
+}
+.about h5
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.names
+{
+    width: 27%;
+    float: left;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 65px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.img
+{
+    margin-top: 10px;
+}
+.dates
+{
+    width: 100%;
+    align-items: center;
+    height: 800px;
+    background-color: black;
+    color: white;
+    float: left;
+    margin-top: 50px;  
+}
+.dates h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.dates h4
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.dates table
+{
+    background-color: white;
+    color: black;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.dates .names
+{
+    background-color: white;
+    color: black;
+}
+.footer
+{
+    width: 100%;
+    align-items: center;
+    height: 900px;
+    float: left;
+    margin-top: 50px;  
+}
+.footer h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.footer h4
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.footer form
+{
+    font-size: 50px;
+    text-align: center;
+}
+.footer img
+{
+    margin-left: 120px;
+    margin-top: 10px;
+}
